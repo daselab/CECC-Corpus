@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Body>
+    <Title>上海：高层建筑普遍有震感 但不会造成危害</Title>
+    <ReportTime type="absTime">2008年05月12日16:25</ReportTime>
+    <Content>
+        <Paragraph>
+            <Sentence>
+                <Event type="thoughtevent" eid="e1">
+                    <Participant sid="s1">新华网上海</Participant>
+                    <Time tid="t1" type="relTime">5月12日</Time>
+                    <Denoter did="d1" type="statement">电</Denoter>
+                </Event>
+                <Event eid="e2" type="thoughtevent">
+                    <Participant sid="s2,s3">上海市政府新闻办</Participant>
+                    <Time type="relTime" tid="t2">12日15时45分</Time>发布
+                    <Denoter type="statement" did="d2">消息</Denoter>
+                </Event>
+                <Event type="thoughtevent" eid="e3">
+                    <Denoter type="statement" did="d3">称</Denoter>
+                </Event>，
+                <Event eid="e4" type="thoughtevent">据
+                    <Participant sid="s4">上海市地震局</Participant>
+                    <Time type="relTime" tid="t4">刚刚</Time>提供的
+                    <Denoter type="statement" did="d4">消息</Denoter>
+                </Event>，
+                <Event type="thoughtevent" eid="e5">
+                    <Participant sid="s5">我国地震台网</Participant>
+                    <Denoter type="operation" did="d5">测定</Denoter>
+                </Event>
+                <Event eid="e6">
+                    <Time type="relTime" tid="t6">5月12日14时28分</Time>在
+                    <Location lid="l6">四川汶川县</Location>发生强烈
+                    <Denoter type="emergency" did="d6">地震</Denoter>
+                </Event>，
+                <Event eid="e7">
+                    <Location lid="l7">上海</Location>
+                    <Object sid="s7">高层建筑</Object>普遍
+                    <Denoter  type="perception" did="d7">有感</Denoter>
+                </Event>，但不会对上海造成危害。
+            </Sentence>
+        </Paragraph>
+    </Content>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e1" thoughtcontent_eids="e2-e7"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e2" thoughtcontent_eids="e3-e7"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e3" thoughtcontent_eids="e4-e7"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e4" thoughtcontent_eids="e5-e7"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e5" thoughtcontent_eids="e6"/>
+    <eRelation relType="Causal" cause_eid="e6" effect_eid="e7"/>
+    <eRelation relType="Accompany" accompanya_eid="e2" accompanyb_eid="e3"/>
+    
+    <eAnaphora anaType="Time" aid="t2" antecedent="12日15时45分" rid="t4" anaphor="刚刚"/>
+</Body>

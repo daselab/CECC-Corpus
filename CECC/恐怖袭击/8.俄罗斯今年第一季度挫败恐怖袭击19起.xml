@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Body>
+    <Title>俄罗斯今年第一季度挫败恐怖袭击19起</Title>
+    <ReportTime type="absTime">2014年4月8日</ReportTime>
+    <Content>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e1" type="thoughtevent">
+                    <Participant sid="s1">人民网</Participant>
+                    <Time tid="t1" type="relTime">4月8日</Time>
+                    <Denoter did="d1" type="statement">讯</Denoter>
+                </Event> 
+                <Event type="thoughtevent" eid="e2">据
+                    <Participant sid="s2">俄新网</Participant>
+                    <Denoter type="statement" did="d2">消息</Denoter>
+                </Event>，
+                <Event eid="e3" type="thoughtevent">
+                    <Participant sid="s3">俄罗斯联邦安全局局长博尔特尼科夫</Participant>
+                    <Time tid="t3" type="relTime">日前</Time>
+                    <Denoter did="d3" type="statement">表示</Denoter>
+                </Event>，
+                <Event eid="e4">
+                    <Participant sid="s4">俄安全局</Participant>
+                    <Time tid="t4" type="timeInterval">2014年第一季度</Time>成功
+                    <Denoter did="d4" type="action">阻止</Denoter>
+                    <Object oid="o4">恐怖袭击19起</Object>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e5" type="thoughtevent">
+                    <Participant sid="s5">博尔特尼科夫</Participant>
+                    <Denoter did="d5" type="statement">指出</Denoter>
+                </Event>，
+                <Event eid="e6">
+                    <Participant sid="s6">俄</Participant>
+                    <Time tid="t6" type="timeInterval">一季度</Time>
+                    <Denoter did="d6" type="action">缴获</Denoter>非法贩运的自制
+                    <Object oid="o6">爆炸装置79个</Object>、
+                    <Object oid="o6">炸药250多公斤</Object>以及
+                    <Object oid="o6">500多支武器</Object>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+    </Content>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e1" thoughtcontent_eids="e2-e6"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e2" thoughtcontent_eids="e3-e4"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e3" thoughtcontent_eids="e4"/>
+    <eRelation relType="Accompany" accompanya_eid="e2" accompanyb_eid="e4"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e5" thoughtcontent_eids="e6"/>                    
+    
+    <eAnaphora anaType="Object" aid="s2" antecedent="博尔特尼科夫" rid="s4" anaphor="博尔特尼科夫"/>       
+    <eAnaphora anaType="Time" aid="t1" antecedent="4月8日" rid="t3" anaphor="日前"/>   
+    <eAnaphora anaType="Time" aid="t4" antecedent="2014年第一季度" rid="t6" anaphor="一季度"/>
+    <eAnaphora anaType="Event" aid="e3" rid="e5"/>
+</Body>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Body>
+    <Title>俄称制止针对索契奥运设施恐怖袭击 未透露细节</Title>
+    <ReportTime type="absTime">2014年4月11日</ReportTime>
+    <Content>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e1" type="thoughtevent">
+                    <Participant sid="s1">中国网</Participant>
+                    <Time tid="t1" type="relTime">4月11日</Time>
+                    <Denoter did="d1" type="statement">讯</Denoter>
+                </Event>
+                <Event type="thoughtevent" eid="e2">据
+                    <Participant sid="s2">俄新网</Participant>
+                    <Denoter type="statement" did="d2">消息</Denoter>
+                </Event>，
+                <Event eid="e3" type="thoughtevent">
+                    <Participant sid="s3">俄联邦安全局局长博尔特尼科夫</Participant>
+                    <Time tid="t3" type="relTime">周四</Time>（4月10日）
+                    <Denoter did="d3" type="statement">表示</Denoter>
+                </Event>，
+                <Event eid="e4">
+                    <Participant sid="s4">俄安全局</Participant>和
+                    <Participant sid="s4">一些列其它国家</Participant>
+                    <Denoter did="d4" type="operation">制止</Denoter>了
+                    <Object oid="o4">针对索契奥运设施实施的恐怖袭击</Object>，
+                </Event>，包括使用杀式炸弹爆炸。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e5" type="thoughtevent">
+                    <Participant sid="s5,s6">博尔特尼科夫</Participant>
+                    <Denoter did="d5" type="statement">表示</Denoter>
+                </Event>，正因为
+                <Event eid="e6" type="thoughtevent">
+                    <Denoter did="d6" type="perception">担心</Denoter>
+                </Event>
+                <Event eid="e7">
+                    <Time tid="t7" type="timeInterval">冬奥会期间</Time>会对
+                    <Object oid="o7">飞往索契航班</Object>实施
+                    <Denoter did="d7" type="emergency">恐怖袭击</Denoter>
+                </Event>，
+                <Event eid="e8" polarity="negative">所有才不允许
+                    <Denoter did="d8" type="action">携带</Denoter>
+                    <Object oid="o8">液体</Object>。
+                </Event>
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e9" type="thoughtevent">
+                    <Participant sid="s9">他</Participant>
+                    <Denoter did="d9" type="statement">称</Denoter>
+                </Event>，“一切都是有根据和计划的，
+                <Event eid="e10">因为
+                    <Participant sid="s10">恐怖分子</Participant>
+                    <Denoter did="d10" type="action">使用</Denoter>过或者想使用引爆炸药的媒介之一，正是
+                    <Object oid="o10">特别液体</Object>”。
+                </Event>
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e11" type="thoughtevent">
+                    <Participant sid="s11">博尔特尼科夫</Participant>
+                    <Time tid="t11" type="relTime">昨日</Time>
+                    <Denoter did="d11" type="statement">称</Denoter>
+                </Event>
+                <Event eid="e12">
+                    <Denoter did="d12" type="action">制止</Denoter>了索契的
+                    <Object oid="o12">恐怖袭击</Object>
+                </Event>，但
+                <Event eid="e13" polarity="negative">没有
+                    <Denoter did="d13" type="statement">明确</Denoter>行动的
+                    <Object oid="o13">具体细节</Object>。
+                </Event>
+            </Sentence>
+        </Paragraph>
+    </Content>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e1" thoughtcontent_eids="e2-e13"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e2" thoughtcontent_eids="e3-e4"/>
+    <eRelation relType="Accompany" accompanya_eid="e3" accompanyb_eid="e5"/>
+    <eRelation relType="Accompany" accompanya_eid="e5" accompanyb_eid="e6"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e5" thoughtcontent_eids="e6-e8"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e9" thoughtcontent_eids="e10"/>
+    <eRelation relType="Causal" cause_eid="e7" effect_eid="e8"/>
+    <eRelation relType="Accompany" accompanya_eid="e5" accompanyb_eid="e9"/>    
+    <eRelation relType="Accompany" accompanya_eid="e9" accompanyb_eid="e11"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e11" thoughtcontent_eids="e12-e13"/>
+    
+    <eAnaphora anaType="Object" aid="s3" antecedent="俄联邦安全局局长博尔特尼科夫" rid="s5" anaphor="博尔特尼科夫"/>
+    <eAnaphora anaType="Object" aid="s5" antecedent="博尔特尼科夫" rid="s9" anaphor="他"/>
+    <eAnaphora anaType="Object" aid="s5" antecedent="博尔特尼科夫" rid="s11" anaphor="博尔特尼科夫"/>
+    <eAnaphora anaType="Object" aid="o8" antecedent="特别液体" rid="o10" anaphor="特别液体"/>
+    <eAnaphora anaType="Object" aid="o4" antecedent="针对索契奥运设施实施的恐怖袭击" rid="o12" anaphor="恐怖袭击"/>
+    <eAnaphora anaType="Time" aid="t1" antecedent="4月11日" rid="t11" anaphor="昨日"/>
+    <eAnaphora anaType="Event" aid="e3" rid="e5"/>
+    <eAnaphora anaType="Event" aid="e5" rid="e9"/>
+    <eAnaphora anaType="Event" aid="e9" rid="e11"/>
+    <eAnaphora anaType="Event" aid="e4" rid="e12"/>
+</Body>

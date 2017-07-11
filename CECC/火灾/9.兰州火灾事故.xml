@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<Body>
+    <Title>兰州火灾事故</Title>  
+    <ReportTime type="absTime">2014年1月2日</ReportTime>
+    <Content>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e1">
+                    <Time type="absTime" tid="t1">2014年1月2日</Time>，
+                    <Participant sid="s1">兰州消防官兵</Participant>在紧急
+                    <Denoter type="operation" did="d1">处置</Denoter>
+                    泰生大厦顶部
+                    <Object oid="o2">火灾</Object>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e2">
+                    <Time type="relTime" tid="t2">当日14时20分许</Time>，位于
+                    <Location lid="l2">甘肃省兰州市张掖路的泰生大厦顶部</Location>发生
+                    <Denoter did="d2" type="emergency">火灾</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e3">
+                    <Participant sid="s3">兰州消防</Participant>共
+                    <Denoter did="d3" type="operation">调集</Denoter>
+                    <Participant oid="o3" sid="s4,s5">6个中队</Participant>，
+                    <Object oid="o3" sid="s4,s5">21台消防车</Object>，
+                    <Participant oid="o3" sid="s4,s5">近200名消防官兵</Participant>
+                </Event>
+                <Event eid="e4">
+                    <Denoter type="movement" did="d4">前往</Denoter>
+                </Event>
+                <Event eid="e5">
+                    <Denoter type="emergency" did="d5">救火</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e6">经过
+                    <Time type="timeInterval" tid="t6">2个小时</Time>的紧张
+                    <Denoter type="operation" did="d6">扑救</Denoter>
+                </Event>，
+                <Event eid="e7">
+                    <Object oid="o7">火灾</Object>于
+                    <Time type="relTime" tid="t7">16时40分许</Time>
+                    <Denoter type="stateChange" did="d7">扑灭</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e8" type="thoughtevent">据
+                    <Denoter type="statement" did="d8">了解</Denoter>，
+                </Event>过火面积约1000平方米，
+                <Event eid="e9">
+                    <Denoter type="emergency" did="d9">大火</Denoter>
+                </Event>
+                <Event eid="e10" polarity="negative">没有造成
+                    <Participant sid="s10">人员</Participant>
+                    <Denoter did="d10" type="emergency">伤亡</Denoter>。
+                </Event>
+            </Sentence>
+        </Paragraph>
+    </Content>
+    <eRelation relType="Causal" cause_eid="e2" effect_eid="e3"/>
+    <eRelation relType="Causal" cause_eid="e2" effect_eid="e4"/>
+    <eRelation relType="Causal" cause_eid="e2" effect_eid="e5"/>
+    <eRelation relType="Follow" bevent_eid="e3" aevent_eid="e4"/>
+    <eRelation relType="Follow" bevent_eid="e4" aevent_eid="e5"/>
+    <eRelation relType="Follow" bevent_eid="e6" aevent_eid="e7"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e8" thoughtcontent_eids="e9-e10"/>
+    
+    <eAnaphora anaType="Object" aid="s1" antecedent="兰州消防官兵" rid="o3" anaphor="近200名消防官兵"/>
+    <eAnaphora anaType="Object" aid="o2" antecedent="火灾" rid="o7" anaphor="火灾"/>
+    
+    <eAnaphora anaType="Time" aid="t1" antecedent="2014年1月2日" rid="t2" anaphor="当日14时20分许"/>
+    
+    <eAnaphora anaType="Event" aid="e2" rid="e9"/>
+</Body>

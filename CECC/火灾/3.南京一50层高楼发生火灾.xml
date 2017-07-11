@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Body>    	
+    <Title>南京一50层高楼发生火灾</Title>
+    <ReportTime type="absTime">2009年04月19日</ReportTime>
+    <Content>
+　　    <Paragraph>
+            <Sentence>
+                <Event type="thoughtevent" eid="e1">
+                    <Participant sid="s1">人民网南京</Participant>
+                    <Time tid="t1" type="relTime">4月19日</Time>
+                    <Denoter did="d1" type="statement">电</Denoter>
+                </Event>（记者申琳）
+                <Event eid="e2">
+                    <Time tid="t2" type="relTime">今日10时20分左右</Time>，
+                    <Location lid="l2">南京市山西路50层高的中环国际大厦</Location>
+                    <Object sid="s2">空调外机井</Object>
+                    <Denoter did="d2" type="emergency">着火</Denoter>
+                </Event>，过火面积约400平方米，
+                <Event eid="e3">经
+                    <Denoter type="operation" did="d3">扑救</Denoter>
+                </Event>，
+                <Event eid="e4">
+                    <Time tid="t4" type="relTime">11时42分</Time>，
+                    <Object oid="o4">明火</Object>被完全
+                    <Denoter did="d4" type="stateChange">扑灭</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event type="thoughtevent" eid="e5">
+                    <Participant sid="s5,s6">南京市政府办公厅</Participant>发布
+                    <Denoter type="statement" did="d5">消息</Denoter>
+                </Event>
+                <Event type="thoughtevent" eid="e6">
+                    <Denoter did="d6" type="statement">说</Denoter>
+                </Event>，
+                <Event polarity="negative" eid="e7">火灾中无
+                    <Participant sid="s7">人员</Participant>
+                    <Denoter did="d7" type="stateChange">伤亡</Denoter>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e8">
+                    <Participant oid="o8" sid="s9">南京市消防支队</Participant>接到
+                    <Participant sid="s8">市公安局110指挥中心</Participant>
+                    <Denoter did="d8" type="operation">传警</Denoter>后
+                </Event>，
+                <Event eid="e9">先后
+                    <Denoter did="d9" type="operation">调集</Denoter>
+                    <Participant oid="o9" sid="s10">鼓楼、侯家桥等10个消防中队</Participant>和
+                    <Participant oid="o9" sid="s10">战勤保障大队</Participant>，
+                    <Object oid="o9" sid="s10">37辆消防车</Object>、
+                    <Participant oid="o9" sid="s10">194名消防官兵</Participant>
+                </Event>
+                <Event eid="e10">
+                    <Denoter did="d10" type="movement">赶赴</Denoter>
+                    <Location type="destination" lid="l10">现场</Location>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e11">
+                    <Participant sid="s11,s13,s14,s15,s16" oid="o12">救援力量</Participant>
+                    <Denoter did="d11" type="movement">到场</Denoter>
+                </Event>后，
+                <Event eid="e12">在
+                    <Location lid="l12">现场</Location>
+                    <Participant sid="s12">指挥部</Participant>的
+                    <Denoter type="operation" did="d12">指挥</Denoter>下
+                </Event>，
+                <Event eid="e13">立即展开
+                    <Object oid="o13">火情</Object>
+                    <Denoter did="d13" type="perception">侦察</Denoter>
+                </Event>，
+                <Event eid="e14">
+                    <Denoter did="d14" type="operation">启动</Denoter>
+                    <Location lid="l14">建筑内部</Location>
+                    <Object oid="o14">消防设施</Object>
+                </Event>
+                <Event eid="e15">进行
+                    <Denoter type="operation" did="d15">排烟</Denoter>
+                </Event>，
+                <Event eid="e16">
+                    <Time type="relTime" tid="t16">同时</Time>
+                    <Denoter did="d16" type="operation">组织</Denoter>
+                    <Participant oid="o16" sid="s17,s18,s19">16个作战小组</Participant>
+                </Event>
+                <Event eid="e17">
+                    <Denoter did="d17" type="movement">深入</Denoter>
+                    <Location lid="l17" type="destination">各楼层</Location>
+                </Event>
+                <Event eid="e18">
+                    <Denoter did="d18" type="operation">疏散</Denoter>
+                    <Participant oid="o18">被困人员</Participant>
+                </Event>，
+                <Event eid="e19">利用
+                    <Location lid="l19">内部</Location>
+                    <Means mid="m19" type="tool">消火栓</Means>进行
+                    <Denoter did="d19" type="stateChange">灭火</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e20">
+                    <Time tid="t20" type="relTime">11时20分</Time>，
+                    <Object oid="o20">火势</Object>得到
+                    <Denoter did="d20" type="operation">控制</Denoter>
+                </Event>，
+                <Event eid="e21">
+                    <Time tid="t21" type="relTime">11时42分</Time>，
+                    <Object oid="o21">明火</Object>被完全
+                    <Denoter did="d21" type="stateChange">扑灭</Denoter>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e22">
+                    <Denoter did="d22" type="emergency">火灾</Denoter>发生
+                </Event>后，
+                <Event eid="e23">
+                    <Participant sid="s23,s24">南京市政府秘书长魏克</Participant>、
+                    <Participant sid="s23,s24">江苏省公安厅副厅长王琦</Participant>、
+                    <Participant sid="s23,s24">江苏省消防总队总队长牛跃光</Participant>等相继
+                    <Denoter did="d23" type="movement">赶到</Denoter>
+                    <Location lid="l23">现场</Location>
+                </Event>
+                <Event eid="e24">
+                    <Denoter did="d24" type="operation">指挥</Denoter>
+                    <Object oid="o24">火灾扑救工作</Object>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event type="thoughtevent" eid="e25">据初步
+                    <Denoter did="d25" type="operation">调查</Denoter>，
+                    中环国际大厦1至8层为裙楼，10至23层为办公区域，25至50层为住宅，9、24、40层为避难层，高187米，总建筑面积约12.4万平方米。                </Event>
+            </Sentence>
+            <Sentence>过火区域为外墙9楼至顶层的两个相临空调外机井，燃烧物主要为井壁的保温层，过火面积约400平方米。</Sentence>
+            <Sentence>
+                <Event eid="e26">
+                    <Participant sid="s26">消防官兵</Participant>共从
+                    <Location lid="l26">建筑内</Location>
+                    <Denoter did="d26" type="operation">疏散</Denoter>出
+                    <Participant oid="o26">被困人员约400人</Participant>
+                </Event>，主要包括在裙楼商场中购物的人员、在写字楼办公的人群和在该大厦居住的业主。
+            </Sentence>
+            <Sentence>
+                <Event eid="e27">
+                    <Denoter type="emergency" did="d27">火灾</Denoter>中
+                </Event>
+                <Event polarity="negative" eid="e28">无
+                    <Paragraph sid="s28">人员</Paragraph>
+                    <Denoter did="d28" type="stateChange">伤亡</Denoter>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e29">
+                    <Time tid="t29" type="relTime">目前</Time>，
+                    <Object oid="o29">火灾原因</Object>和直接
+                    <Object oid="o29">财产损失</Object>正在
+                    <Denoter did="d29" type="operation">调查</Denoter>之中
+                </Event>。
+            </Sentence>
+        </Paragraph>
+    </Content>  
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e1" thoughtcontent_eids="e2-e29"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e6" thoughtcontent_eids="e7"/>
+    <eRelation relType="Follow" bevent_eid="e3" aevent_eid="e4"/>
+    <eRelation relType="Accompany" accompanya_eid="e5" accompanyb_eid="e6"/>
+    <eRelation relType="Follow" bevent_eid="e8" aevent_eid="e9"/>
+    <eRelation relType="Follow" bevent_eid="e9" aevent_eid="e10"/>
+    <eRelation relType="Follow" bevent_eid="e11" aevent_eid="e12"/>
+    <eRelation relType="Accompany" accompanya_eid="e12" accompanyb_eid="e13"/>
+    <eRelation relType="Accompany" accompanya_eid="e13" accompanyb_eid="e14"/>
+    <eRelation relType="Accompany" accompanya_eid="e14" accompanyb_eid="e15"/>
+    <eRelation relType="Accompany" accompanya_eid="e16" accompanyb_eid="e17"/>
+    <eRelation relType="Accompany" accompanya_eid="e17" accompanyb_eid="e18"/>
+    <eRelation relType="Accompany" accompanya_eid="e18" accompanyb_eid="e19"/>
+    <eRelation relType="Follow" bevent_eid="e20" aevent_eid="e21"/>
+    <eRelation relType="Follow" bevent_eid="e22" aevent_eid="e23"/>
+    <eRelation relType="Accompany" accompanya_eid="e23" accompanyb_eid="e24"/>
+    
+    <eAnaphora anaType="Object" aid="o9" antecedent="194名消防官兵" rid="s26" anaphor="消防官兵"/>
+    <eAnaphora anaType="Object" aid="o18" antecedent="被困人员" rid="o26" anaphor="被困人员约400人"/>
+    <eAnaphora anaType="Object" aid="o4" antecedent="明火" rid="o21" anaphor="明火"/>
+    
+    <eAnaphora anaType="Location" aid="l2" antecedent="南京市山西路50层高的中环国际大厦" rid="l10" anaphor="现场"/>
+    <eAnaphora anaType="Location" aid="l2" antecedent="南京市山西路50层高的中环国际大厦" rid="l12" anaphor="现场"/>
+    <eAnaphora anaType="Location" aid="l17" antecedent="各楼层" rid="l19" anaphor="内部"/>
+    <eAnaphora anaType="Location" aid="l2" antecedent="南京市山西路50层高的中环国际大厦" rid="l23" anaphor="现场"/>
+    <eAnaphora anaType="Location" aid="l14" antecedent="建筑内部" rid="l26" anaphor="建筑内"/>
+    
+    <eAnaphora anaType="Time" aid="t4" antecedent="11时42分" rid="t21" anaphor="11时42分"/>
+    <eAnaphora anaType="Time" aid="t1" antecedent="4月19日" rid="t29" anaphor="目前"/>
+	<eAnaphora anaType="Time" aid="t1" antecedent="4月19日" rid="t2" anaphor="今日10时20分左右"/>
+    
+    <eAnaphora anaType="Event" aid="e2" rid="e22"/>
+    <eAnaphora anaType="Event" aid="e22" rid="e27"/>
+    <eAnaphora anaType="Event" aid="e4" rid="e21"/>
+    <eAnaphora anaType="Event" aid="e7" rid="e28"/>
+</Body>

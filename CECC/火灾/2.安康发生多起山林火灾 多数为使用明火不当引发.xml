@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Body>
+    <Title>安康发生多起山林火灾 多数为使用明火不当引发</Title>
+    <ReportTime type="absTime">2014-03-29 05:54:45</ReportTime>
+    <Content>
+        <Paragraph>
+            <Sentence>
+                <Event type="thoughtevent" eid="e1">
+                    <Time type="relTime" tid="t1">昨日</Time>，
+                    <Participant sid="s1">记者</Participant>从
+                    <Participant oid="o1">安康市森林公安局汉滨分局</Participant>
+                    <Denoter type="statement" did="d1">获悉</Denoter>
+                </Event>，
+                <Event eid="e2"> 
+                    <Time type="relTime" tid="t2">近日</Time>由于
+                    <Location lid="l2">安康</Location>
+                    <Object sid="s2">天气</Object>快速
+                    <Denoter type="stateChange" did="d2">转暖</Denoter>
+                </Event>，
+                <Event eid="e3">
+                    <Object sid="s3">空气</Object>
+                    <Denoter type="stateChange" did="d3">干燥</Denoter>
+                </Event>，
+                <Event eid="e4">
+                    <Location lid="l4">安康境内</Location>发生多起山林
+                    <Denoter type="emergency" did="d4">火灾</Denoter>
+                </Event>，
+                <Event eid="e5">多数为
+                    <Participant sid="s5">村民</Participant>
+                    <Denoter type="action" did="d5">使用</Denoter> 
+                    <Object oid="o5">明火</Object>不当引发
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event type="thoughtevent" eid="e6">据
+                    <Participant sid="s6">安康市森林公安局汉滨分局值班人员</Participant>
+                    <Denoter type="statement" did="d6">介绍</Denoter>
+                </Event>，
+                <Event eid="e7"> 
+                    <Time type="relTime" tid="t7">3月26日傍晚6时左右</Time>，
+                    <Location lid="l7">恒口镇长行村</Location>发生一起
+                    <Denoter type="emergency" did="d7">山火</Denoter>
+                </Event>，
+                <Event type="thoughtevent" eid="e8">
+                    <Object oid="o8">起火原因</Object>初步
+                    <Denoter type="perception" did="d8">推断</Denoter>
+                </Event>为
+                <Event eid="e9">
+                    <Participant sid="s9,s10,s11">村民</Participant>
+                    <Denoter type="action" did="d9">上山</Denoter>
+                </Event>
+                <Event eid="e10">
+                    <Denoter type="action" did="d10">上坟</Denoter>
+                </Event>
+                <Event eid="e11">
+                    <Denoter type="action" did="d11">烧纸</Denoter>
+                </Event>引发。
+            </Sentence>
+            <Sentence>
+                <Event eid="e12">
+                    <Denoter type="operation" did="d12">接警</Denoter>
+                </Event>后
+                <Event eid="e13">
+                    <Participant sid="s13,s14">森林消防</Participant>及
+                    <Participant sid="s13,s14">当地村民</Participant>及时
+                    <Denoter type="movement" did="d13">赶赴</Denoter>
+                    <Location type="destination" lid="l13">现场</Location>
+                </Event>
+                <Event eid="e14">
+                    <Denoter type="stateChange" did="d14">灭火</Denoter>
+                </Event>，但因
+                <Event eid="e15">
+                    <Object sid="s15">天色</Object>
+                    <Denoter type="stateChange" did="d15">渐晚</Denoter>
+                </Event>加之人工灭火难度较大，为
+                <Event eid="e16">
+                    <Denoter type="statement" did="d16">保证</Denoter>
+                    <Object oid="o16">人员安全</Object>
+                </Event>
+                <Event eid="e17">
+                    <Time type="relTime" tid="t17">当晚</Time>
+                    <Participant sid="s17">消防人员</Participant>
+                    <Denoter type="movement" did="d17">撤下</Denoter>
+                    <Location lid="l17">火场</Location>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e18">
+                    <Time type="relTime" tid="t18">27日</Time>
+                    <Participant sid="s18,s19,s20">众人</Participant>继续
+                    <Denoter type="action" did="d18">上山</Denoter>
+                </Event>
+                <Event eid="e19">
+                    <Denoter type="stateChange" did="d19">灭火</Denoter>
+                </Event>，
+                <Event eid="e20">于
+                    <Time type="relTime" tid="t20">当晚9时左右</Time>将
+                    <Object oid="o20">明火</Object>彻底
+                    <Denoter type="stateChange" did="d20">扑灭</Denoter>
+                </Event>，
+                <Event polarity="negative" eid="e21">未造成
+                    <Participant sid="s21">人员</Participant>
+                    <Denoter type="stateChange" did="d21">伤亡</Denoter>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>
+            <Sentence>
+                <Event eid="e22">
+                    <Time type="relTime" tid="t22">3月27日下午2时左右</Time>，有
+                    <Participant sid="s22,s23,s25,s26">多位群众</Participant>
+                    <Denoter type="movement" did="d22">途经</Denoter>
+                    <Location lid="l22">包茂高速安康西服务区</Location>
+                </Event>时
+                <Event type="thoughtevent" eid="e23">
+                    <Denoter type="perception" did="d23">发现</Denoter>
+                </Event>
+                <Event eid="e24">
+                    <Location lid="l24">附近山体</Location>发生
+                    <Denoter type="emergency" did="d24">火灾</Denoter>
+                </Event>，
+                <Event eid="e25"> 
+                    <Time type="relTime" tid="t25">随后</Time>
+                    <Denoter type="action" did="d25">报警</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>  
+                <Event eid="e26">因
+                    <Denoter type="perception" did="d26">发现</Denoter>及时
+                </Event>，
+                <Event eid="e27">
+                    <Time type="relTime" tid="t27">几小时后</Time>
+                    <Object oid="o27">火灾</Object>被
+                    <Denoter type="stateChange" did="d27">扑灭</Denoter>
+                </Event>，
+                <Event type="thoughtevent" eid="e28">
+                    <Object oid="o28">起火原因</Object>初步
+                    <Denoter type="perception" did="d28">推测</Denoter>
+                </Event>为
+                <Event eid="e29">
+                    <Location lid="l29">附近</Location>
+                    <Participant sid="s29">某村民</Participant>在
+                    <Location lid="l29">上坡</Location>
+                    <Denoter type="action" did="d29">烧荒</Denoter>
+                </Event>引发
+                <Event eid="e30">
+                    <Denoter type="emergency" did="d30">山火</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>
+                <Event eid="e31">另外
+                    <Time type="relTime" tid="t31">27日傍晚6时左右</Time>，
+                    <Location lid="l31">安康市城区</Location>突起
+                    <Denoter type="emergency" did="d31">大风</Denoter>
+                </Event>，
+                <Event eid="e32">
+                    <Location lid="l32">香溪洞景区内</Location>
+                    <Object sid="s32,s33">高压线路</Object>
+                    <Denoter type="movement" did="d32">碰撞</Denoter>
+                </Event>
+                <Event eid="e33">
+                    <Denoter type="stateChange" did="d33">产生</Denoter>
+                    <Object oid="o33">火花</Object>
+                </Event>引发
+                <Event eid="e34">
+                    <Location lid="l34">附近山体</Location>
+                    <Object sid="s34">植被</Object>
+                    <Denoter type="emergency" did="d34">起火</Denoter>
+                </Event>，
+                <Event eid="e35">经
+                    <Participant sid="s35,s37">消防人员</Participant>的全力
+                    <Denoter type="operation" did="d35">扑救</Denoter>
+                </Event>及
+                <Event eid="e36">
+                    <Time type="relTime" tid="t36">随后</Time>
+                    <Denoter type="operation" did="d36">降雨</Denoter>
+                </Event>，
+                <Event eid="e37">于
+                    <Time type="relTime" tid="t37">27日晚11时左右</Time>
+                    <Object oid="o37">明火</Object>被
+                    <Denoter type="stateChange" did="d37">扑灭</Denoter>
+                </Event>。
+            </Sentence>
+            <Sentence>以上两起
+                <Event eid="e38">
+                    <Denoter type="emergency" did="d38">火灾</Denoter>
+                </Event>
+                <Event polarity="negative" eid="e39"> 均未造成
+                    <Participant sid="s39">人员</Participant>
+                    <Denoter type="stateChange" did="d39">伤亡</Denoter>
+                </Event>。
+            </Sentence>
+        </Paragraph>
+        <Paragraph>27日陕西消防部门发布消防提示，时下正值春季，风干物燥，森林火险等级较高，森林防火应该引起高度关注。不要携带火种进入林区，林区内严禁野炊、吸烟、使用明火。发生森林火灾和林区野外用火，请立即拨打森林火灾报警电话：12119。
+        </Paragraph>
+    </Content>    
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e1" thoughtcontent_eids="e2-e5"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e6" thoughtcontent_eids="e7-e11"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e8" thoughtcontent_eids="e9-e11"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e23" thoughtcontent_eids="e24"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e28" thoughtcontent_eids="e29-e30"/>
+    <eRelation relType="Causal" cause_eid="e2" effect_eid="e3"/>
+    <eRelation relType="Causal" cause_eid="e3" effect_eid="e4"/>
+    <eRelation relType="Causal" cause_eid="e15" effect_eid="e17"/>
+    <eRelation relType="Causal" cause_eid="e16" effect_eid="e17"/>
+    <eRelation relType="Causal" cause_eid="e26" effect_eid="e27"/>
+    <eRelation relType="Causal" cause_eid="e29" effect_eid="e30"/>
+    <eRelation relType="Causal" cause_eid="e31" effect_eid="e32"/>
+    <eRelation relType="Causal" cause_eid="e32" effect_eid="e33"/>
+    <eRelation relType="Causal" cause_eid="e33" effect_eid="e34"/>
+    <eRelation relType="Accompany" accompanya_eid="e9" accompanyb_eid="e10"/>
+    <eRelation relType="Accompany" accompanya_eid="e10" accompanyb_eid="e11"/>
+    <eRelation relType="Follow" bevent_eid="e12" aevent_eid="e13"/>
+    <eRelation relType="Accompany" accompanya_eid="e13" accompanyb_eid="e14"/>
+    <eRelation relType="Follow" bevent_eid="e18" aevent_eid="e19"/>
+    <eRelation relType="Follow" bevent_eid="e19" aevent_eid="e20"/>
+    <eRelation relType="Accompany" accompanya_eid="e22" accompanyb_eid="e23"/>
+    <eRelation relType="Follow" bevent_eid="e23" aevent_eid="e25"/>
+    <eRelation relType="Follow" bevent_eid="e32" aevent_eid="e33"/>
+    <eRelation relType="Thoughtcontent" thoughtevent_eid="e35" thoughtcontent_eids="e36"/>
+    <eRelation relType="Follow" bevent_eid="e36" aevent_eid="e37"/>           
+    
+    <eAnaphora anaType="Object" aid="s5" antecedent="村民" rid="s9" anaphor="村民"/>
+    <eAnaphora anaType="Object" aid="s17" antecedent="消防人员" rid="s35" anaphor="消防人员"/>
+    <eAnaphora anaType="Object" aid="s21" antecedent="人员" rid="s39" anaphor="人员"/>
+    <eAnaphora anaType="Object" aid="o5" antecedent="明火" rid="o20" anaphor="明火"/>
+    <eAnaphora anaType="Object" aid="o8" antecedent="起火原因" rid="o28" anaphor="起火原因"/>
+    <eAnaphora anaType="Object" aid="o5" antecedent="明火" rid="o37" anaphor="明火"/>
+    
+    <eAnaphora anaType="Location" aid="l2" antecedent="安康" rid="l4" anaphor="安康境内"/>
+    <eAnaphora anaType="Location" aid="l7" antecedent="恒口镇长行村" rid="l13" anaphor="现场"/>
+    <eAnaphora anaType="Location" aid="l7" antecedent="恒口镇长行村" rid="l17" anaphor="火场"/>
+    <eAnaphora anaType="Location" aid="l22" antecedent="包茂高速安康西服务区" rid="l24" anaphor="附近山体"/>
+    <eAnaphora anaType="Location" aid="l22" antecedent="包茂高速安康西服务区" rid="l29" anaphor="附近"/>
+    <eAnaphora anaType="Location" aid="l32" antecedent="香溪洞景区内" rid="l34" anaphor="附近山体"/>
+    
+    <eAnaphora anaType="Time" aid="t0" antecedent="2014-03-29 05:54:45" rid="t1" anaphor="昨日"/>
+    <eAnaphora anaType="Time" aid="t0" antecedent="2014-03-29 05:54:45" rid="t2" anaphor="近日"/>
+    <eAnaphora anaType="Time" aid="t7" antecedent="3月26日傍晚6时左右" rid="t17" anaphor="当晚"/>
+    <eAnaphora anaType="Time" aid="t18" antecedent="27日" rid="t20" anaphor="当晚9时左右"/>
+    <eAnaphora anaType="Time" aid="t22" antecedent="3月27日下午2时左右" rid="t25" anaphor="随后"/>
+    <eAnaphora anaType="Time" aid="t22" antecedent="3月27日下午2时左右" rid="t27" anaphor="几小时后"/>
+    <eAnaphora anaType="Time" aid="t31" antecedent="27日傍晚6时左右" rid="t36" anaphor="随后"/>
+    
+    <eAnaphora anaType="Event" aid="e24" rid="e30"/>
+</Body>
